@@ -6,6 +6,7 @@ class String:
         self.consonant=0
         self.space=0
         self.string=""
+
         
     def getstr(self):
         self.string=str(input("Enter a String:"))
@@ -23,6 +24,7 @@ class String:
                 
             self.consonant=self.upper+self.lower-self.vowel
         
+    
     def display(self):
         print("The given string contains...")
         print("%d Uppercase letters"%self.upper)
